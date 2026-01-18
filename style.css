@@ -64,7 +64,6 @@ body {
     box-shadow: 0 0 20px var(--main-color);
 }
 
-
 .hero-content { max-width: 600px; }
 
 .hero-content h3 { font-size: 32px; font-weight: 700; }
@@ -204,5 +203,4 @@ body {
     .hero-img img { width: 70vw; margin-bottom: 30px;}
     .contact form .input-box input { width: 100%; }
     .nav-links { display: none; } /* Add JS toggle for real mobile menu */
-
 }
