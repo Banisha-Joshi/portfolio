@@ -55,13 +55,13 @@ body {
 .nav-links a:hover { color: var(--main-color); }
 
 /* Hero Section */
-.hero-img img {
-    width: 350px;
-    height: 350px; /* Force height and width to be equal */
-    object-fit: cover; /* This prevents the image from looking stretched */
-    border-radius: 50%; /* This makes it a perfect circle */
-    border: 5px solid var(--main-color);
-    box-shadow: 0 0 20px var(--main-color);
+.hero {
+    min-height: 100vh;
+    padding: 100px 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .hero-content { max-width: 600px; }
@@ -108,11 +108,14 @@ body {
 .btn:hover { box-shadow: none; }
 
 .hero-img img {
-    width: 350px; /* Adjust size as needed */
-    border-radius: 50%;
+    width: 350px;
+    height: 350px; /* Force height and width to be equal */
+    object-fit: cover; /* This prevents the image from looking stretched */
+    border-radius: 50%; /* This makes it a perfect circle */
     border: 5px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+
 
 /* Projects Section */
 .projects {
@@ -203,4 +206,5 @@ body {
     .hero-img img { width: 70vw; margin-bottom: 30px;}
     .contact form .input-box input { width: 100%; }
     .nav-links { display: none; } /* Add JS toggle for real mobile menu */
+
 }
